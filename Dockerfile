@@ -25,4 +25,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /tmp/webhook-linux-amd64 && \
     rm -r /var/lib/apt/lists/*
 
-CMD webhook -hooks /hooks.json -verbose
+CMD webhook -hooks /hooks.json -verbose -port 80 -urlprefix XxosJDdRpo7Rww87VkJGzv1QLegnhh-uniq-libresh

@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       apt-transport-https \
       ca-certificates \
       curl \
+      git \
       gnupg2 && \
     apt-key adv \
       --keyserver hkp://ha.pool.sks-keyservers.net:80 \
